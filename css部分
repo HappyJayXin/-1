@@ -1,0 +1,54 @@
+body{
+    background-color: #FAFFF8;    
+  }  
+  /* 版面 */
+  #website{
+    width: 980px;
+    margin: 0 auto;
+  }
+  #header{
+    width: 980px;
+    height: 100px;
+    background-color: #6A6849;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #main{
+    width: 980px;
+  }
+  #menue{
+    float: left;
+    width: 200px;
+    height: 480px;
+    background-color:#205B55;
+    margin-top: 10px;margin-bottom: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  #inhalt{
+    background-color: #B6B891;
+    float: right;
+    margin-top: 10px;margin-bottom: 10px;margin-left: 10px;
+    border-radius: 10px;
+    width: 770px;
+    height: 480px;
+  }
+  #footer{
+    background-color: #6A6849;
+    border-radius: 10px;
+    width: 980px;
+    height: 70px;
+    margin-top: 10px;
+    clear: both;
+    position: relative;
+  }
+  /*內容*/
+  /* 標題 */
+  h1{
+      padding-top: 26px;
+      color: #fff;
+      letter-spacing: 2px;
+      font-weight: bold;
+      font-size: 40px;
+  }
