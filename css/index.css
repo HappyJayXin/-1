@@ -1,0 +1,136 @@
+﻿@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+body{    
+    font-family: '標楷體';     
+  }   
+  /* 版面 */
+  #website{
+    width: 980px;
+    margin: 0 auto;
+  }
+  #header{
+    width: 980px;
+    height: 100px;
+    background-color: rgba(158,162,162,.5);
+    border-radius: 10px;
+    text-align: center;
+  }
+  #main{
+    width: 980px;
+  }
+  #menue{
+    float: left;
+    width: 200px;
+    height: 480px;
+    background-color:rgba(238, 242, 243);
+    margin-top: 10px;margin-bottom: 10px;
+    border-radius: 10px;    
+    text-align: center;
+  }
+  #inhalt{
+    background-color:rgba(106, 114, 124);
+    float: right;
+    margin-top: 10px;margin-bottom: 10px;margin-left: 10px;
+    border-radius: 10px;
+    width: 770px;
+    height: 480px;
+  }
+  #footer{
+    background-color: rgba(158,162,162);
+    border-radius: 10px;
+    width: 980px;
+    height: 70px;
+    margin-top: 10px;
+    clear: both;
+    position: relative;
+  }
+  /*內容*/
+  /* 標題陰影設定 */
+  #header h1{
+  padding-top: 26px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0px 15px 3px rgba(0,0,0,0.1),
+  10px 20px 3px rgba(0,0,0,0.05),
+  -10px 20px 3px rgba(0,0,0,0.05);  
+  }
+  /* 註腳文字 */
+  #footer div{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;    
+    text-align: center;    
+  }  
+  /* 超連結設定 */
+  #linkhomework{
+      margin: 30px;
+      line-height: 30px;
+  }
+  #linkhomework a{                
+      text-decoration: none;
+      font-size: 25px;  
+      color: #4755648a;       
+  } 
+ /* 我的名片 */  
+ #content{
+     padding: 20px;
+ }
+ /* 帥哥美女照片 */
+ #content img{
+    width: 200px;
+    height:290px;
+    border-radius: 100%;  
+    opacity: .9;      
+ } 
+ /* 圖片位置設定!! */
+ .imgmove{ 
+   opacity: .0;   
+   z-index: 0;
+   width: 0px;  
+  position: relative;;
+ }
+ /* 個人資料文字顏色 */
+ #content div{
+     color: #EEF2F3;
+ }
+ /* 你的名字(不是電影) */
+ #content div span h3{
+     font-size:33px 
+ }
+ /* 個人介紹字體大小 */
+ #content div span{
+    font-size: 25px;
+ }
+ /* 其他網站連結按鈕 */
+ .fb,.ig,.git{
+  width: 40px;
+  font-size: 30px;  
+  margin: 0 5px; 
+  display: inline-block;
+  transition: 1s all;
+  -moz-transition: 0.4s all;
+  text-align: center;
+ } 
+ .fb{
+  color: #EEF2F3;
+}
+.fb:hover{
+  background-color:#475564;
+  border-radius: 50%;
+}
+.ig{
+  color: #EEF2F3;
+}
+.ig:hover{
+  background-color: #475564;
+  border-radius: 50%;
+}
+.git{
+  color: #EEF2F3;
+}
+.git:hover{
+  background-color: #475564;
+  border-radius: 50%;
+} 
